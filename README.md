@@ -1,8 +1,12 @@
-## Fabios assignment - Log Dashboard
+# Fabios assignment - Log Dashboard
 
 Fetches logs from an api and displays them in a table with filtering options.
 Use npm start to run the app and build to compile and serve the app.
 In case of getting cors errors in testing run Chrome with the following flags: --disable-web-security --user-data-dir=%LOCALAPPDATA%\Google\chromeTemp
+
+.env required, keys:
+
+-   REACT_APP_LOG_API_URL (API endpoint for log fetching)
 
 By Dmitry Filipovich :)
 
@@ -42,3 +46,18 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+# Fabios assignment - Log Aggregator
+
+Aggregates logs from a log files.
+Provides the following metrics:
+
+-   Requests Per Hour
+-   Most Requested Resources
+-   Response Code Distribution
+-   Anomalies (Request frequency and error count)
+
+To run install Python 3.13.2 and run main.py.
+No additional dependencies.
+
+Edit the respctive config files to control both the aggregator and and generator.
