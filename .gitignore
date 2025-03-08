@@ -6,15 +6,15 @@
 
 ### NodeJs + ReactJs ###
 # Dependencies
-/node_modules
-/.pnp
+node_modules/
+.pnp
 .pnp.js
 
 # Testing
-/coverage
+coverage/
 
 # Production
-/build
+build/
 
 # Misc
 .DS_Store
