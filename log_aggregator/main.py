@@ -1,12 +1,12 @@
-from log_generator import LogGenerator
-from log_aggregator import LogAggregator
+from classes.log_generator import LogGenerator
+from classes.log_aggregator import LogAggregator
 
 if __name__ == "__main__":
     # Comment out the follwing 2 lines if you don't need a new log file
-    log_generator = LogGenerator(config_path="./log_generator_config.json")
+    log_generator = LogGenerator(config_path="./config/log_generator_config.json")
     log_generator.generate_and_save_to_file()
 
-    aggregator = LogAggregator(config_path="./log_aggregator_config.json")
+    aggregator = LogAggregator(config_path="./config/log_aggregator_config.json")
     aggregator.aggregate()
 
     insights = aggregator.data
