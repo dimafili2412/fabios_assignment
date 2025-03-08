@@ -1,0 +1,18 @@
+{
+    "line_count": 1000000,
+    "start_unix": 1741392000,
+    "end_unix": 1741416163,
+    "url_list": ["/index.html", "/news", "/products/123"],
+    "referrer_list": ["example"],
+    "user_agent_list": ["Mozilla/5.0"],
+    "reqest_size_number_range": [100, 10000],
+    "error_spikes": true,
+    "traffic_spikes": true,
+    "error_spike_count": 3,
+    "traffic_spike_count": 3,
+    "error_spike_length": 1000,
+    "traffic_spike_length": 10000,
+    "error_spike_intensity": 90,
+    "traffic_spike_intensity": 90,
+    "file_path": "log.txt"
+}
