@@ -5,7 +5,7 @@
 # .env
 
 # Temporary txt files + logs
-*.txt/
+*.txt
 
 ### NodeJs + ReactJs ###
 
