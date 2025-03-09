@@ -10,6 +10,20 @@ In case of getting cors errors in testing run Chrome with the following flags: -
 
 By Dmitry Filipovich :)
 
+## Running The Project
+Follow these steps to set up and run the project locally:
+
+```bash
+# Change into the project directory
+cd log_dashboard
+
+# Install all required dependencies
+npm install
+
+# Start the development server
+npm start
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
